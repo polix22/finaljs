@@ -1,22 +1,60 @@
 * {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;}
-    .contenedor1 {
-            background-color:white;
-            margin: 0;
-            display: flex;
-            margin-bottom: 5px;
-            justify-content: center; }
-            header .contenedor1 img {
-              width: 340px; }
-            header .contenedor1 ul {
-              padding: 10px;
-              font-family: 'Roboto', sans-serif;
-              font-size: x-large;
-              font-weight: bold;
-              margin-top: 0;
-              margin-bottom: 0;
-              text-align: end; 
-            }
-             
+    box-sizing: border-box;
+  }
+body{
+  background-image: url(./img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.padre{
+  text-align: center;
+  display: flex;
+  gap: 10px;
+}
+  .hijo1{
+    margin-left: 500px;
+  }
+  .hijo2{
+    margin-left:10px;
+    margin-top: 100px;
+    display: flex;
+  }
+  .fcambio {
+      background-color:pink;
+      border: 1px solid gray;
+      width: 45%;
+      border-radius: 10px;
+      margin-top: 10px;
+      margin: auto;
+      display: grid;
+  }
+    h2{
+      text-align: center;
+    }
+    .campo1{
+    margin: 5px;
+    padding: 5px;
+  }
+  .campo2{
+    margin: 5px;
+    padding: 5px;
+  } .campo3{
+    margin: 5px;
+    padding: 5px;
+  }
+  .campo4{
+    margin: 5px;
+    padding: 5px;
+  }
+  footer{
+margin-left: 300px;
+padding: auto;
+  }
+  .pfoo{
+    margin-left:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+  }

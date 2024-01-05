@@ -1,0 +1,12 @@
+[
+    { "nombre": "US$" , "precio":1200 },
+    { "nombre": "€","precio": 1800 },
+    { "nombre": "AR$","precio": 1},
+    { "nombre": "🍌","precio": 600 },
+    { "nombre": "£","precio": 1030},
+    { "nombre": "₹","precio": 10},
+    { "nombre": "₽","precio": 15 },
+    { "nombre": "R$","precio": 170},
+    { "nombre": "¥","precio": 6}
+    
+]
